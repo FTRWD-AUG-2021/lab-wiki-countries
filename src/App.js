@@ -45,7 +45,7 @@ function App() {
       </ul>
 
       <Switch>
-        {/* here we create our switch functionality which basically allows us to switch which route is being displayed. this way each time we select a new country, it replaces the old country. */}
+        {/* here we create our switch functionality which basically allows us to switch which route is being displayed. this way each time we select a new country, it replaces the old country. we use switch to move from route to route without having to display all of them at the same time. */}
         <Route exact path="/" component={Home} />
         <Route
           exact
